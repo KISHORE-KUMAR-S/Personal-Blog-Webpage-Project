@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
+#mainid{
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+#loginerr{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#errmsg{
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #8a0008;
+    background-color: #e58fe5;
+    opacity: 0;
+}

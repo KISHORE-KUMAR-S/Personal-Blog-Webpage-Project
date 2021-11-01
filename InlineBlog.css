@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 20px;
+    background: linear-gradient(to bottom left, #ff32d2 0%, #d06bff 40%, #5b9dff 60%, #4affde 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+    color:#fff;
+}
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position:  100% 100%;}
+}
+p::selection{
+    background-color: #fff;
+    color: #000;
+
+}
+div{
+    text-align: center;
+}
+div:hover{
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(1.05); 
+    transition-duration: 1s; 
+}
